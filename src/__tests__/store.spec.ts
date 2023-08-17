@@ -20,4 +20,7 @@ describe('Vuex-composition', () => {
   it('test getters userInfo', () => {
     expect(wrapper.getComponent(App).componentVM.getters.helloUser()).toEqual('hello user vuex-composition')
   })
+  it('test mapStateRefs', () => {
+    expect(wrapper.getComponent(App).componentVM.name).toEqual('vuex')
+  })
 })
