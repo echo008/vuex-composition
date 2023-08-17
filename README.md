@@ -1,6 +1,6 @@
 # vuex-composition
 
-[![npm version](https://badge.fury.io/js/vuex-composition.svg)](https://badge.fury.io/js/vuex-composition)
+[![npm](https://img.shields.io/npm/v/vuex-composition.svg)](https://www.npmjs.com/package/vuex-composition)
 
 A util package to use Vuex with Composition API easily.
 
