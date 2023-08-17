@@ -17,7 +17,7 @@ $ pnpm install vuex-composition
 
 ### Basic Usage Examples
 
-```js
+```html
 <script setup>
 import { computed } from 'vue'
 import { mapState, mapGetters, mapMutations, mapActions } from 'vuex-composition'
@@ -45,7 +45,7 @@ const fullnameRef = computed(fullname)
 
 ### Reactive Usage Examples
 
-```js
+```html
 <script setup>
 import { computed } from 'vue'
 import { mapStateRefs, mapGettersRefs } from 'vuex-composition'
@@ -61,7 +61,7 @@ const { fullname } = mapGettersRefs(['fullname'])
 
 ### Full Usage Examples
 
-```js
+```html
 <script setup>
 import { computed } from 'vue'
 import { mapStoreRefs } from 'vuex-composition'
@@ -73,7 +73,7 @@ const { article, comments, fullname, SET_USER_INFO, fetch } = mapStoreRefs()
 
 ### Modules Usage Examples
 
-```js
+```html
 <script setup>
 import { computed } from 'vue'
 import { mapState, mapGetters, mapStateRefs, mapGettersRefs, mapMutations, mapActions } from 'vuex-composition'
@@ -106,7 +106,7 @@ const fullnameRef = computed(fullname)
 
 ### Namespaced Usage Examples
 
-```js
+```html
 <script setup>
 import { createNamespacedHelpers } from 'vuex-composition'
 const { mapState, mapGetters, mapStateRefs, mapGettersRefs, mapMutations, mapActions, mapStoreRefs } = createNamespacedHelpers('common')
@@ -123,7 +123,7 @@ const { fullname as fullnameRef } = mapGettersRefs('common', ['fullname'])
 
 > Consider separate the store composition file from the store usage inside the component
 
-```js
+```html
 <script setup>
 import { useStore } from 'vuex'
 import { createNamespacedHelpers } from 'vuex-composition';
