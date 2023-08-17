@@ -1,0 +1,50 @@
+{
+  "name": "vuex-composition",
+  "version": "1.0.0",
+  "description": "Helpers to use Vuex store form Vue Composition API",
+  "author": "echo008 <davidmeirlevy@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "vuex",
+    "composition",
+    "setup",
+    "composition-api",
+    "store",
+    "state management"
+  ],
+  "main": "src/index.ts",
+  "module": "dist/vuex-composition.mjs",
+  "browser": "dist/vuex-composition.iife.js",
+  "typings": "dist/vuex-composition.d.ts",
+  "scripts": {
+    "build": "run-p type-check build-only",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/echo008/vuex-composition.git"
+  },
+  "bugs": {
+    "url": "https://github.com/echo008/vuex-composition/issues"
+  },
+  "homepage": "https://github.com/echo008/vuex-composition#readme",
+  "devDependencies": {
+    "@types/jsdom": "^21.1.1",
+    "@vue/test-utils": "^2.4.1",
+    "jsdom": "^22.1.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.1",
+    "vue": "^3.3.4",
+    "vue-tsc": "^1.8.8",
+    "vuex": "^4.1.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.4",
+    "vuex": "^4.1.0"
+  }
+}
