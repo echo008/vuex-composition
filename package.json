@@ -1,6 +1,6 @@
 {
   "name": "vuex-composition",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Helpers to use Vuex store form Vue Composition API",
   "author": "echo008",
   "license": "MIT",
