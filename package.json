@@ -2,7 +2,7 @@
   "name": "vuex-composition",
   "version": "1.0.2",
   "description": "Helpers to use Vuex store form Vue Composition API",
-  "author": "echo008 <davidmeirlevy@gmail.com>",
+  "author": "echo008",
   "license": "MIT",
   "keywords": [
     "vue",
