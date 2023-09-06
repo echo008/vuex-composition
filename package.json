@@ -1,6 +1,6 @@
 {
   "name": "vuex-composition",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Helpers to use Vuex store form Vue Composition API",
   "author": "echo008 <davidmeirlevy@gmail.com>",
   "license": "MIT",
@@ -13,8 +13,10 @@
     "store",
     "state management"
   ],
+  "type": "module",
+  "files": ["dist"],
   "main": "src/index.ts",
-  "module": "dist/vuex-composition.mjs",
+  "module": "dist/vuex-composition.js",
   "browser": "dist/vuex-composition.iife.js",
   "typings": "dist/vuex-composition.d.ts",
   "scripts": {
